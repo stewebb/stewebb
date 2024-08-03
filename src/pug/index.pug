@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Freelancer - Start Bootstrap Theme
+        title Steven Webb
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -26,9 +26,9 @@ html(lang='en')
     body#page-top
 
         // Navigation
-        nav#mainNav.navbar.navbar-expand-lg.bg-secondary.text-uppercase.fixed-top
+        nav#mainNav.navbar.navbar-expand-lg.bg-secondary.fixed-top
             .container
-                a.navbar-brand(href='#page-top') Start Bootstrap
+                a.navbar-brand(href='#page-top') eveGEnts Project Creator
                 button.navbar-toggler.text-uppercase.font-weight-bold.bg-primary.text-white.rounded(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu 
                     i.fas.fa-bars
@@ -45,19 +45,22 @@ html(lang='en')
         header.masthead.bg-primary.text-white.text-center
             .container.d-flex.align-items-center.flex-column
                 
-                // My Avatar
+                // Masthead Avatar
                 // https://api.dicebear.com/9.x/adventurer/svg?seed=Steven&skinColor=ecad80&hairColor=cb6820&hair=long24&eyes=variant01
-                img.masthead-avatar.mb-5(src='assets/img/avatar.svg', alt='...')
+                img.masthead-avatar.mb-3(src='assets/img/avatar.svg', alt='...' style='width: 300px; height: 300px;')
+                
                 // Masthead Heading
-                h1.masthead-heading.text-uppercase.mb-0 Start Bootstrap
+                h1.masthead-heading.text-uppercase.mb-0 Steven Webb
+
                 // Icon Divider
                 .divider-custom.divider-light
                     .divider-custom-line
                     .divider-custom-icon
                         i.fas.fa-star
                     .divider-custom-line
+
                 // Masthead Subheading
-                p.masthead-subheading.font-weight-light.mb-0 Graphic Artist - Web Designer - Illustrator
+                p.masthead-subheading.font-weight-light.mb-0 Software Developer - Web Developer - Machine Learning Developer
 
         // Portfolio Section
         section#portfolio.page-section.portfolio
@@ -118,28 +121,57 @@ html(lang='en')
         // About Section
         section#about.page-section.bg-primary.text-white.mb-0
             .container
+
                 // About Section Heading
                 h2.page-section-heading.text-center.text-uppercase.text-white About
+
                 // Icon Divider
                 .divider-custom.divider-light
                     .divider-custom-line
                     .divider-custom-icon
-                        i.fas.fa-star
+                        i.fas.fa-lightbulb
                     .divider-custom-line
+
                 // About Section Content
                 .row
-                    .col-lg-4.ms-auto
+                    .col-lg-6.ms-auto
                         p.lead
-                            | Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
-                    .col-lg-4.me-auto
-                        p.lead
-                            | You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
-                // About Section Button
-                .text-center.mt-4
-                    a.btn.btn-xl.btn-outline-light(href='https://startbootstrap.com/theme/freelancer/')
-                        i.fas.fa-download.me-2
-                        | Free Download!
+                            span.fw-bold Web developer
+                            | , skilled in creating responsive and user-friendly websites using the latest technologies. 
+                            | Proficient in 
+                            span.fw-bold Java
+                            | , 
+                            span.fw-bold Python
+                            | , 
+                            span.fw-bold HTML
+                            | , 
+                            span.fw-bold CSS
+                            | , 
+                            span.fw-bold JavaScript
+                            | , and frameworks like 
+                            span.fw-bold ReactJS
+                            |  and 
+                            span.fw-bold Spring Framework
+                            | .
 
+                        p.lead
+                            span.fw-bold About me
+                        ul
+                            li 
+                                |  ✨ Creating bugs since 2018
+                            li 
+                                |  📚 I'm currently learning ReactJS and ASP.NET
+                            li 
+                                |  🎯 Goals: Full stack developer  
+                   
+                    .col-lg-6.me-auto
+                        p.lead
+                            | Excels in developing dynamic web applications that enhance user experience and engagement. 
+                            | Expertise in optimizing code for performance, integrating new features, and maintaining AWS/Azure cloud server operations to ensure system reliability. 
+                        
+                        p.lead
+                            | Committed to continuous learning and improvement, and dedicated to delivering high-quality, innovative web solutions. 
+                   
         // Contact Section
         section#contact.page-section
             .container
