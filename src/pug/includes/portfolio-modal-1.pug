@@ -18,12 +18,15 @@
                                 .divider-custom-line
 
                             // Portfolio Modal - Image Carousel
-                            #portfolioModalCarousel.carousel.slide(data-bs-ride='carousel')
+                            #portfolioModalCarousel.carousel.slide(data-bs-ride='carousel').mb-3
+                                
                                 // Indicators/dots
                                 .carousel-indicators
                                     button(type='button', data-bs-target='#portfolioModalCarousel', data-bs-slide-to='0', class='active', aria-current='true', aria-label='Slide 1')
                                     button(type='button', data-bs-target='#portfolioModalCarousel', data-bs-slide-to='1', aria-label='Slide 2')
                                     button(type='button', data-bs-target='#portfolioModalCarousel', data-bs-slide-to='2', aria-label='Slide 3')
+                                    button(type='button', data-bs-target='#portfolioModalCarousel', data-bs-slide-to='3', aria-label='Slide 4')
+                                    button(type='button', data-bs-target='#portfolioModalCarousel', data-bs-slide-to='4', aria-label='Slide 5')
 
                                 // The slideshow/carousel
                                 .carousel-inner
@@ -31,35 +34,53 @@
                                         img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-1.png', alt='Home Page')
                                         .carousel-caption.caption
                                             h5.fw-bold Home Page
-                                        //    p This is the home page of the webapp.
                                     .carousel-item
                                         img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-2.png', alt='Event Calendar')
                                         .carousel-caption.caption
                                             h5.fw-bold Event Calendar
-                                        //    p This is a description of the second project.
                                     .carousel-item
-                                        img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/portfolio/path/to/your/third-image.jpg', alt='Third Image')
-                                        .carousel-caption
-                                            h5 Third Project
-                                            p This is a description of the third project.
+                                        img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-3.png', alt='Event Details')
+                                        .carousel-caption.caption
+                                            h5.fw-bold Event Details
+                                    .carousel-item
+                                        img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-4.png', alt='Banner Request')
+                                        .carousel-caption.caption
+                                            h5.fw-bold Banner Request
+                                    .carousel-item
+                                        img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-5.png', alt='Banner Request Approval')
+                                        .carousel-caption.caption
+                                            h5.fw-bold Banner Request Approval
 
                                 // Left and right controls/icons
                                 button.carousel-control-prev(type='button', data-bs-target='#portfolioModalCarousel', data-bs-slide='prev')
-                                    span.carousel-control-prev-icon(aria-hidden='true')
+                                    span.carousel-control-prev-icon(aria-hidden='true').caption
                                     span.visually-hidden Previous
                                 button.carousel-control-next(type='button', data-bs-target='#portfolioModalCarousel', data-bs-slide='next')
-                                    span.carousel-control-next-icon(aria-hidden='true')
+                                    span.carousel-control-next-icon(aria-hidden='true').caption
                                     span.visually-hidden Next
 
                             // Portfolio Modal - Text
-                            p.mb-4
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                            //p.mb-4
+                            //    | REPLACE ME
+
+                            .text-start
+                                p.mb-1
+                                    | eTWIG is an event management software for 
+                                    a(href="https://www.anu.edu.au/students/student-life/student-communities/griffin-hall-non-residential-community", target="_blank") Griffin Hall
+                                p.mb-1
+                                    | It includes features such as
+                                    span.fw-bold Event Calendar
+                                    | ,
+                                    span.fw-bold Banner Request/Approval
+                                    | , and
+                                    span.fw-bold Graphics Management
+                                    | . eTWIG is a free software licensed under the MIT License.
 
                             // Links
                             div.btn-group
                                 a.btn.btn-outline-primary(href='https://github.com/stewebb/eTWIG', target='_blank')
                                     i.fab.fa-github
                                     | &nbsp;GitHub Repo
-                                a.btn.btn-outline-secondary(href='https://webapp.etwig.net', target='_blank')
+                                a.btn.btn-outline-secondary(href='https://webapp.etwig.net/events/calendar.do', target='_blank')
                                     i.fas.fa-external-link-alt
                                     | &nbsp;Demo Site
