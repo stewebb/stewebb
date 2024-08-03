@@ -28,7 +28,7 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.bg-secondary.fixed-top
             .container
-                a.navbar-brand(href='#page-top') eveGEnts Project Creator
+                a.navbar-brand(href='#page-top') Steven Webb
                 button.navbar-toggler.text-uppercase.font-weight-bold.bg-primary.text-white.rounded(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu 
                     i.fas.fa-bars
@@ -47,20 +47,24 @@ html(lang='en')
                 
                 // Masthead Avatar
                 // https://api.dicebear.com/9.x/adventurer/svg?seed=Steven&skinColor=ecad80&hairColor=cb6820&hair=long24&eyes=variant01
-                img.masthead-avatar.mb-3(src='assets/img/avatar.svg', alt='...' style='width: 300px; height: 300px;')
+                img.masthead-avatar.mb-3(src='assets/img/avatar.svg', alt='Steven Webb' style='width: 300px; height: 300px;')
                 
                 // Masthead Heading
-                h1.masthead-heading.text-uppercase.mb-0 Steven Webb
+                h1.masthead-heading.mb-0 Steven Webb
 
                 // Icon Divider
                 .divider-custom.divider-light
                     .divider-custom-line
                     .divider-custom-icon
-                        i.fas.fa-star
+                        i.fas.fa-user
                     .divider-custom-line
 
                 // Masthead Subheading
-                p.masthead-subheading.font-weight-light.mb-0 Software Developer - Web Developer - Machine Learning Developer
+                p.masthead-subheading.mb-1 Software Engineer - Web Developer - Machine Learning Developer
+                p.masthead-subheading.mb-0.fw-bold
+                    | Creator of the 
+                    a.text-white(href="https://www.evegents.net" target="_blank") eveGEnts Project
+                    | .
 
         // Portfolio Section
         section#portfolio.page-section.portfolio
@@ -75,13 +79,14 @@ html(lang='en')
                     .divider-custom-line
                 // Portfolio Grid Items
                 .row.justify-content-center
-                    // Portfolio Item 1
+
+                    // Portfolio Item 1: eTWIG
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal1')
                             .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
                                 .portfolio-item-caption-content.text-center.text-white
                                     i.fas.fa-plus.fa-3x
-                            img.img-fluid(src='assets/img/portfolio/cabin.png', alt='...')
+                            img.img-fluid(src='assets/img/portfolio/eTWIG.png', alt='eTWIG')
                     // Portfolio Item 2
                     .col-md-6.col-lg-4.mb-5
                         .portfolio-item.mx-auto(data-bs-toggle='modal', data-bs-target='#portfolioModal2')
