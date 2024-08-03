@@ -7,6 +7,7 @@
                 .container
                     .row.justify-content-center
                         .col-lg-8
+                        
                             // Portfolio Modal - Title
                             h2.portfolio-modal-title.text-secondary.mb-0 The eTWIG Project
 
@@ -60,14 +61,15 @@
                                     span.visually-hidden Next
 
                             // Portfolio Modal - Text
-                            //p.mb-4
-                            //    | REPLACE ME
-
                             .text-start
-                                p.mb-1
+                                p.mb-0.fw-bold 
+                                    | Description
+                                p.mb-2
                                     | eTWIG is an event management software for 
                                     a(href="https://www.anu.edu.au/students/student-life/student-communities/griffin-hall-non-residential-community", target="_blank") Griffin Hall
-                                p.mb-1
+                                p.mb-0.fw-bold 
+                                    | Features  
+                                p.mb-2
                                     | It includes features such as
                                     span.fw-bold Event Calendar
                                     | ,
@@ -75,7 +77,19 @@
                                     | , and
                                     span.fw-bold Graphics Management
                                     | . eTWIG is a free software licensed under the MIT License.
-
+                                p.mb-0.fw-bold 
+                                    | Tech Stack
+                                p.mb-4 
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="40" alt="HTML5")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height="40" alt="CSS3")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="Javascript")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" alt="Java")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" height="40" alt="Bootstrap")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" height="40" alt="jQuery")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" height="40" alt="Spring")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" height="40" alt="Spring")
+                                    img(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL")
+                            
                             // Links
                             div.btn-group
                                 a.btn.btn-outline-primary(href='https://github.com/stewebb/eTWIG', target='_blank')
