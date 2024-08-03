@@ -1,8 +1,8 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+<h1 align="left">Steven Webb</h1>
 
 ###
 
-<p align="left">My name is ... and I'm a ..., from ....</p>
+<p align="left">My name is Steven Webb and I'm a graduate of the <a href="https://www.anu.edu.au/">Australian National University</a></p>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since ...<br>📚 I'm currently learning ...<br>🎯 Goals: ...<br>🎲 Fun fact: ...</p>
+<p align="left">✨ Creating bugs since 2018<br>📚 I'm currently learning ReactJS and ASP.NET<br>🎯 Goals: Full stack developer<br>🎲 Fun fact: undefined</p>.
 
 ###
 
