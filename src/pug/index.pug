@@ -69,14 +69,17 @@ html(lang='en')
         // Portfolio Section
         section#portfolio.page-section.portfolio
             .container
+
                 // Portfolio Section Heading
-                h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Portfolio
+                h2.page-section-heading.text-center.text-secondary.mb-0 Projects &amp Portfolio
+
                 // Icon Divider
                 .divider-custom
                     .divider-custom-line
                     .divider-custom-icon
-                        i.fas.fa-star
+                        i.fas.fa-briefcase
                     .divider-custom-line
+
                 // Portfolio Grid Items
                 .row.justify-content-center
 
@@ -131,7 +134,7 @@ html(lang='en')
             .container
 
                 // About Section Heading
-                h2.page-section-heading.text-center.text-uppercase.text-white About
+                h2.page-section-heading.text-center.text-white About
 
                 // Icon Divider
                 .divider-custom.divider-light
@@ -179,10 +182,17 @@ html(lang='en')
                         
                         p.lead
                             | Committed to continuous learning and improvement, and dedicated to delivering high-quality, innovative web solutions. 
-                   
+                
+                // About Section Button
+                .text-center.mt-2
+                    a.btn.btn-xl.btn-outline-light(href='https://github.com/stewebb' target="_blank")
+                        i.fab.fa-github
+                        | &nbsp;My GitHub Profile     
+
         // Contact Section
         section#contact.page-section
             .container
+
                 // Contact Section Heading
                 h2.page-section-heading.text-center.text-uppercase.text-secondary.mb-0 Contact Me
                 // Icon Divider
@@ -294,22 +304,22 @@ html(lang='en')
                             i.fab.fa-fw.fa-facebook-f
                         a.btn.btn-outline-light.btn-social.mx-1(href='#!')
                             i.fab.fa-fw.fa-twitter
-                        a.btn.btn-outline-light.btn-social.mx-1(href='#!')
+                        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.linkedin.com/in/stewebb/' target="_blank")
                             i.fab.fa-fw.fa-linkedin-in
-                        a.btn.btn-outline-light.btn-social.mx-1(href='#!')
-                            i.fab.fa-fw.fa-dribbble
+                        //a.btn.btn-outline-light.btn-social.mx-1(href='#!')
+                        //    i.fab.fa-fw.fa-dribbble
                     // Footer About Text
                     .col-lg-4
-                        h4.text-uppercase.mb-4 About Freelancer
+                        h4.mb-4 About this website
                         p.lead.mb-0
-                            | Freelance is a free to use, MIT licensed Bootstrap theme created by 
-                            a(href='http://startbootstrap.com') Start Bootstrap
-                            | .
+                            | This website is powered by Start Bootstrap 
+                            a.fw-bold.text-white(href='https://startbootstrap.com/theme/freelancer' target="_blank") Freelancer
+                            | theme.
 
         // Copyright Section
         div.copyright.py-4.text-center.text-white
             .container
-                small Copyright &copy; Your Website 2023
+                small Copyright &copy; Steven Webb 2024
 
         // Portfolio Modals
         include includes/portfolio-modal-1.pug
