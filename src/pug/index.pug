@@ -19,7 +19,9 @@ html(lang='en')
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css2?family=Courgette&display=swap', rel='stylesheet', type='text/css')
 
+        //<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
@@ -28,7 +30,7 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.bg-secondary.fixed-top
             .container
-                a.navbar-brand(href='#page-top') Steven Webb
+                a.courgette-regular.navbar-brand(href='#page-top') Steven Webb
                 button.navbar-toggler.text-uppercase.font-weight-bold.bg-primary.text-white.rounded(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu 
                     i.fas.fa-bars
@@ -47,10 +49,10 @@ html(lang='en')
                 
                 // Masthead Avatar
                 // https://api.dicebear.com/9.x/adventurer/svg?seed=Steven&skinColor=ecad80&hairColor=cb6820&hair=long24&eyes=variant01
-                img.masthead-avatar.mb-3(src='assets/img/avatar.svg', alt='Steven Webb' style='width: 300px; height: 300px;')
+                img.masthead-avatar(src='assets/img/avatar.svg', alt='Steven Webb')
                 
                 // Masthead Heading
-                h1.masthead-heading.mb-0 Steven Webb
+                h1.courgette-regular.masthead-heading.mb-0 Steven Webb
 
                 // Icon Divider
                 .divider-custom.divider-light
@@ -60,7 +62,7 @@ html(lang='en')
                     .divider-custom-line
 
                 // Masthead Subheading
-                p.masthead-subheading.mb-1 Software Engineer - Web Developer - Machine Learning Developer
+                p.masthead-subheading.mb-1 Software Engineer - Web Developer
                 p.masthead-subheading.mb-0.fw-bold
                     | Creator of the 
                     a.text-white(href="https://www.evegents.net" target="_blank") eveGEnts Project
