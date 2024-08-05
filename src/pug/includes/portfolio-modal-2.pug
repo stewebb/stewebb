@@ -8,19 +8,94 @@
                 .container
                     .row.justify-content-center
                         .col-lg-8
+
                             // Portfolio Modal - Title
-                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Tasty Cake
+                            h2.portfolio-modal-title.text-secondary.mb-0 The eveGEnts Project
+
                             // Icon Divider
                             .divider-custom
                                 .divider-custom-line
                                 .divider-custom-icon
-                                    i.fas.fa-star
+                                    i.fas.fa-code
                                 .divider-custom-line
-                            // Portfolio Modal - Image
-                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/cake.png', alt='...')
+
+                            // Portfolio Modal - Image Carousel
+                            #portfolioModalCarouse2.carousel.slide(data-bs-ride='carousel').mb-3
+                                
+                                // Indicators/dots
+                                .carousel-indicators
+                                    button(type='button', data-bs-target='#portfolioModalCarouse2', data-bs-slide-to='0', class='active', aria-current='true', aria-label='Slide 1')
+                                    button(type='button', data-bs-target='#portfolioModalCarouse2', data-bs-slide-to='1', aria-label='Slide 2')
+                                    button(type='button', data-bs-target='#portfolioModalCarouse2', data-bs-slide-to='2', aria-label='Slide 3')
+                                    button(type='button', data-bs-target='#portfolioModalCarouse2', data-bs-slide-to='3', aria-label='Slide 4')
+                                    button(type='button', data-bs-target='#portfolioModalCarouse2', data-bs-slide-to='4', aria-label='Slide 5')
+
+                                // The slideshow/carousel
+                                .carousel-inner
+                                    .carousel-item.active
+                                        img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-1.png', alt='Home Page')
+                                        .carousel-caption.caption
+                                            h5.fw-bold Home Page
+                                    .carousel-item
+                                        img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-2.png', alt='Event Calendar')
+                                        .carousel-caption.caption
+                                            h5.fw-bold Event Calendar
+                                    .carousel-item
+                                        img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-3.png', alt='Event Details')
+                                        .carousel-caption.caption
+                                            h5.fw-bold Event Details
+                                    .carousel-item
+                                        img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-4.png', alt='Banner Request')
+                                        .carousel-caption.caption
+                                            h5.fw-bold Banner Request
+                                    .carousel-item
+                                        img.d-block.w-100.img-fluid.rounded.mb-5(src='assets/img/screenshots/eTWIG-5.png', alt='Banner Request Approval')
+                                        .carousel-caption.caption
+                                            h5.fw-bold Banner Request Approval
+
+                                // Left and right controls/icons
+                                button.carousel-control-prev(type='button', data-bs-target='#portfolioModalCarouse2', data-bs-slide='prev')
+                                    span.carousel-control-prev-icon(aria-hidden='true').caption
+                                    span.visually-hidden Previous
+                                button.carousel-control-next(type='button', data-bs-target='#portfolioModalCarouse2', data-bs-slide='next')
+                                    span.carousel-control-next-icon(aria-hidden='true').caption
+                                    span.visually-hidden Next
+
                             // Portfolio Modal - Text
-                            p.mb-4
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
-                            button.btn.btn-primary(data-bs-dismiss='modal')
-                                i.fas.fa-xmark.fa-fw
-                                | Close Window
+                            .text-start
+                                p.mb-0.fw-bold 
+                                    | Description
+                                p.mb-2
+                                    | eTWIG is an event management software for 
+                                    a(href="https://www.anu.edu.au/students/student-life/student-communities/griffin-hall-non-residential-community", target="_blank") Griffin Hall
+                                p.mb-0.fw-bold 
+                                    | Features  
+                                p.mb-2
+                                    | It includes features such as
+                                    span.fw-bold Event Calendar
+                                    | ,
+                                    span.fw-bold Banner Request/Approval
+                                    | , and
+                                    span.fw-bold Graphics Management
+                                    | . eTWIG is a free software licensed under the MIT License.
+                                p.mb-0.fw-bold 
+                                    | Tech Stack
+                                p.mb-4 
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="40" alt="HTML5")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height="40" alt="CSS3")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="Javascript")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" alt="Java")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" height="40" alt="Bootstrap")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" height="40" alt="jQuery")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" height="40" alt="Spring")
+                                    img.mr-1(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" height="40" alt="Spring")
+                                    img(src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL")
+                            
+                            // Links
+                            div.btn-group
+                                a.btn.btn-outline-primary(href='https://github.com/stewebb/eTWIG', target='_blank')
+                                    i.fab.fa-github
+                                    | &nbsp;GitHub Repo
+                                a.btn.btn-outline-secondary(href='https://webapp.etwig.net/events/calendar.do', target='_blank')
+                                    i.fas.fa-external-link-alt
+                                    | &nbsp;Demo Site
