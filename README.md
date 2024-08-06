@@ -1,3 +1,4 @@
+<!--
 <style>
     h2 {
         color: #525174;
@@ -8,13 +9,13 @@
         font-weight: bold
     }
 </style>
-
+-->
 
 ![Landing Image](./src/assets/img/screenshots/stewebb-1.png)
 
 ###
 
-<h2 align="left"><b>About me</b></h2>
+<h2 align="left" style="color: #525174;"><b>About me</b></h2>
 
 ###
 
@@ -27,7 +28,7 @@
 
 ###
 
-<h2 align="left"><b>I code with...</b></h2>
+<h2 align="left" style="color: #525174;"><b>I code with...</b></h2>
 
 <span align="left">👨‍💻 Programming Languages</span>
 <div align="left">
@@ -45,7 +46,7 @@
     <br>&nbsp;
 </div> 
 
-<span align="left">🕸️ Web Development</span>
+<span align="left" style="color: #525174;">🕸️ Web Development</span>
 <div align="left">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="40" alt="HTML5" />
     <img width="12" />
@@ -115,7 +116,7 @@
 
 ###
 
-<h2 align="left"><b>Stats</b></h2>
+<h2 align="left" style="color: #525174;"><b>Stats</b></h2>
 
 ![stewebb's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=stewebb&theme=default&show_icons=true&hide_border=true&layout=compact)
 
@@ -123,7 +124,7 @@
 
 ###
 
-<h2 align="left"><b>About this Repo</b></h2>
+<h2 align="left" style="color: #525174;"><b>About this Repo</b></h2>
 
 This repository also contains [my personal website](https://stewebb.evegents.net), which is powered by [Start Bootstrap - Freelancer](https://github.com/StartBootstrap/startbootstrap-freelancer) theme.
 
