@@ -1,4 +1,4 @@
-<h1 align="left"><b>Steven Webb</b></h1>
+![Landing Image](./src/assets/img/screenshots/stewebb-1.png)
 
 ###
 
@@ -113,6 +113,6 @@
 
 <h2 align="left"><b>About this Repo</b></h2>
 
-This repository also contains my personal website, which is powered by [Start Bootstrap - Freelancer](https://github.com/StartBootstrap/startbootstrap-freelancer) theme.
+This repository also contains [my personal website](https://stewebb.evegents.net), which is powered by [Start Bootstrap - Freelancer](https://github.com/StartBootstrap/startbootstrap-freelancer) theme.
 
 ###
