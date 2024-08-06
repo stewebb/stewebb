@@ -30,7 +30,6 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" height="40" alt="PHP" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="Javascript" />
-    <br>&nbsp;
 </div> 
 
 <span align="left" style="color: #525174;">🕸️ Web Development</span>
@@ -41,11 +40,7 @@
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" height="40" alt="SASS" />
     <img width="12" />
-    <!--
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="Typescript" />
-    <img width="12" />
-    -->
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React"  />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" height="40" alt="Bootstrap" />
     <img width="12" />
@@ -54,7 +49,6 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="NodeJS" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" height="40" alt="Spring" />
-    <br>&nbsp;
 </div>
 
 <span align="left">🤖 Machine Learning</span>
@@ -68,7 +62,6 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" height="40" alt="OpenCV" />   
     <img width="12" />    
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" height="40" alt="Pandas" />
-    <br>&nbsp;
 </div> 
 
 <span align="left">🗄️ Databases</span>
@@ -78,7 +71,7 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" />
     <img width="12" />     
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" height="40" alt="Hibernate" />
-    <br>&nbsp;
+    <br>
 </div> 
 
 <span align="left">🛠️ Dev Tools & System Management</span>
@@ -98,7 +91,20 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" height="40" alt="Linux" />
     <img width="12" />    
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" height="40" alt="Raspberry Pi" />
-    <br>&nbsp;
+</div>
+<br>
+
+###
+
+<h2 align="left"><b>What I am learning</b></h2>
+<div align="left">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" height="40" alt="C#" />
+    <img width="12" /> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="Typescript" />
+    <img width="12" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
+    <img width="12" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" height="40" alt=".NET" />   
 </div>
 
 ###
@@ -111,7 +117,7 @@
 
 ###
 
-<h2 align="left"><b>About this Repo</b></h2>
+<h2 align="left"><b>About this repo</b></h2>
 
 This repository also contains [my personal website](https://stewebb.evegents.net), which is powered by [Start Bootstrap - Freelancer](https://github.com/StartBootstrap/startbootstrap-freelancer) theme.
 
