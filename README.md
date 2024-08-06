@@ -96,7 +96,7 @@
 
 ###
 
-<h2 align="left"><b>What I am learning</b></h2>
+<h2 align="left"><b>I am learning...</b></h2>
 <div align="left">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" height="40" alt="C#" />
     <img width="12" /> 
