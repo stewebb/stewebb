@@ -1,3 +1,15 @@
+<style>
+    h2 {
+        color: #525174;
+    }
+
+    a {
+        color: #243e36;
+        font-weight: bold
+    }
+</style>
+
+
 ![Landing Image](./src/assets/img/screenshots/stewebb-1.png)
 
 ###
