@@ -15,24 +15,25 @@
 
 ###
 
-<h2 align="left">I code with...</h2>
+<h2 align="left"><b>I code with...</b></h2>
 
-<b align="left">Programming Languages</b>
-
+<span align="left">👨‍💻 Programming Languages</span>
 <div align="left">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" height="40" alt="C" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" alt="Java" />
+    <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" alt="Python" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" height="40" alt="PHP" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="Javascript" />
+    <br>&nbsp;
 </div> 
 
-<b align="left">Web Development</b>
+<span align="left">🕸️ Web Development</span>
 <div align="left">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="40" alt="HTML5" />
     <img width="12" />
@@ -53,9 +54,10 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="40" alt="NodeJS" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" height="40" alt="Spring" />
+    <br>&nbsp;
 </div>
 
-<b align="left">Machine Learning</b>
+<span align="left">🤖 Machine Learning</span>
 <div align="left">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" height="40" alt="PyTorch" />
     <img width="12" />
@@ -66,21 +68,20 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" height="40" alt="OpenCV" />   
     <img width="12" />    
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" height="40" alt="Pandas" />
+    <br>&nbsp;
 </div> 
 
-<b align="left">Databases</b>
-
+<span align="left">🗄️ Databases</span>
 <div align="left">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height="40" alt="MySQL" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" />
     <img width="12" />     
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg" height="40" alt="Hibernate" />
-          
+    <br>&nbsp;
 </div> 
 
-<b align="left">Dev Tools & System Management</b>
-
+<span align="left">🛠️ Dev Tools & System Management</span>
 <div align="left">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" alt="VS Code" />
     <img width="12" />
@@ -89,12 +90,29 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="40" alt="GitHub" />
     <img width="12" />  
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" height="40" alt="Jenkins" />
+    <img width="12" />  
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height="40" alt="Docker" />   
     <img width="12" />   
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg" height="40" alt="Windows" />
     <img width="12" />
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" height="40" alt="Linux" />
     <img width="12" />    
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" height="40" alt="Raspberry Pi" />
+    <br>&nbsp;
 </div>
+
+###
+
+<h2 align="left"><b>Stats</b></h2>
+
+![stewebb's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=stewebb&theme=default&show_icons=true&hide_border=true&layout=compact)
+
+![stewebb's Streak](https://github-readme-streak-stats.herokuapp.com/?user=stewebb&theme=default&hide_border=true)
+
+###
+
+<h2 align="left"><b>About this Repo</b></h2>
+
+This repository also contains my personal website, which is powered by [Start Bootstrap - Freelancer](https://github.com/StartBootstrap/startbootstrap-freelancer) theme.
 
 ###
