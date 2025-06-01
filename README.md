@@ -5,17 +5,12 @@
 <h2 align="left"><b>About me</b></h2>
 
 ###
-A 
-<span style="color:red; font-weight:bolder;">c</span><span style="color:orange; font-weight:bolder;">o</span><span style="color:yellow; font-weight:bolder;">l</span><span style="color:green; font-weight:bolder;">o</span><span style="color:blue; font-weight:bolder;">r</span><span style="color:indigo; font-weight:bolder;">f</span><span style="color:violet; font-weight:bolder;">u</span><span style="color:purple; font-weight:bolder;">l</span>
-software engineer.
 
 <p align="left">
     🐛 Creating bugs since 2018<br>
-    🎓 Graduated from the <a href="https://www.anu.edu.au/" target="_blank">Australian National University</a>, Master of Computing<br>
-    💼 Working at <a href="https://paladine.com.au/" target="_blank">Paladine Systems</a> as a junior software developer<br>
-    🤔 I'm currently learning ReactJS and WordPress<br>
-    🎨 My hair colors: Red and Blue (Oct 2024- )<br>
-    🎯 Goals: Try every hair color before I turn 30<br>
+    🎓 Graduated from the <a href="https://www.anu.edu.au/">Australian National University</a>, Master of Computing<br>
+    🤔 I'm currently learning ReactJS and ASP.NET<br>
+    🎯 Goals: Become a Full stack developer<br>
 </p>
 
 ###
