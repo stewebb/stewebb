@@ -1,5 +1,3 @@
-![Landing Image](./src/assets/img/screenshots/stewebb-1.png)
-
 ###
 
 <h2 align="left"><b>About me</b></h2>
@@ -14,8 +12,6 @@ software engineer.
     🎓 Graduated from the <a href="https://www.anu.edu.au/" target="_blank">Australian National University</a>, Master of Computing<br>
     💼 Working at <a href="https://paladine.com.au/" target="_blank">Paladine Systems</a> as a junior software developer<br>
     🤔 I'm currently learning ReactJS and WordPress<br>
-    🎨 My hair colors: Red and Blue (Oct 2024- )<br>
-    🎯 Goals: Try every hair color before I turn 30<br>
 </p>
 
 ###
